@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    background-color: rgb(61, 59, 59);
+    /* width: 20vw; */
+    font-family: 'Fira Sans',sans-serif;
+    height: 100vh;
+    
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav{
+    padding: 54px ;
+    
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 63px 0;
+    
+   
+}
+
+.sidebar  nav li a{
+    background-color: white;
+    border-radius: 4px;
+    padding: 1px 1px;
+    align-items: center;
+}
+.sidebar nav li a:hover{
+    color: rgb(179, 28, 38);
+}
+.main{
+    /* background-color: yellow; */
+    width: 200wh;
+   
+}
+.container{
+    display: flex;
+    background-color: rgb(155, 152, 152);
+    /* background-color: rgb(222, 227, 174); */
+    height: 100vh;
+   
+    
+}
+.infocontainer{
+    /* background-color: rgb(176, 30, 103); */
+    height: 78vh;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 59, 59);
+    /* box-shadow: 13px 13px;
+    box-shadow: -19px -19px; */
+     box-shadow: 21px 28px 18px 0px; 
+    
+   
+}
+.devpic img{
+    height: 78vh;
+   border-radius: 20px;
+      
+}
+
+.devInfo{
+    display: flex;
+    padding: 120px  200px;
+    
+    flex-direction: column;
+    /* font-family: 'Source Code Pro',monospace; */
+    
+}
+
+
+
+.hello{
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.name{
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.about{
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttons{
+ 
+    margin-top: 44px;
+}
+
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+h1{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 10px;
+    color: rgb(34, 22, 22);
+}
+ p{
+    /* font-family: 'Source Code Pro',monospace; */
+   color:rgb(20, 23, 22);
+    font-size: 20px;
+    
+ }
+ h2{
+    font-family: 'Fira Sans',sans-serif;
+   margin: 36px;
+    font-size: 33px;
+    margin-left: 10px;
+    color: rgb(34, 22, 22);
+ }
+
+.gallery{
+    display: flex;
+
+}
+
+.Intro{
+    
+    color: white;
+  /* background-color: rgb(202, 184, 196); */
+  /* background-color: white; */
+   margin: 50px 0px;
+     height: 100vh;
+    
+   margin-left: 50px;
+   
+}
+
+.menu-bar{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left:10px;
+}
+
+.cross{
+    margin-left: 168px;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.service{
+   background-color: rgb(54, 6, 91);
+}
+
+section{
+    color: white;
+}
+#work{
+    font-size: 50px;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+ 
+.si{
+    color: white;
+    font-size: 30px;
+}
+.what{
+    margin-top: 40px;
+    font-size: 25px;
+   color: rgb(34, 22, 22);
+}
+.phone{
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(34, 22, 22);
+}
+.email{
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(34, 22, 22);
+}
+
+.contactform{
+    margin-top: 100px;
+    color: red;
+
+}
+#name{
+    font-size: 20px;
+    color: red;
+    margin-left: 80px;
+}
+#email{
+    font-size: 20px;
+    color: red;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#phone{
+    font-size: 20px;
+    color: red;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+#pass{
+    font-size: 20px;
+    color: red;
+    margin-left: 80px;
+    margin-top: 30px;
+   
+
+}
+/* #cpass{
+    font-size: 20px;
+    color: white;
+    margin-left: 200px;
+} */
+
+
+.formdesign  input{
+    width: 70%;
+    border: 1px;
+    padding: 8px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.formerror{
+    color: red;
+}
+
+.but{
+    border-radius: 16px;
+    width: 90px;
+    height: 40px;
+    margin: 15px 8px;
+    font-size:20px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.w{
+    margin-top: 40px;
+    color: white;
+} 
+
+.p{
+    margin-top: 40px;
+    color: white;
+   
+}
+
+#i{
+    color: rgb(255, 234, 0);
+}
+
+.buttons button{
+    color: white;
+    background-color: rgb(97, 116, 203);
+    border-radius: 14px;
+    padding: 14px 14px;
+}
+
+.buttons button:hover{
+    color: black;
+    background-color: white;
+}
+
+@media (max-width: 500px){
+    .Intro{
+        display: block;
+    }
+}
+
+hr{
+   margin-top: 100px;
+   width: 100%;
+   
+    
+}
+
+span{
+    color: red;
+}
+
+.gallery{
+    display: flex;
+
+}
+.html-css{
+
+    height: 50px;
+    margin: auto;
+    display: block;
+    
+}
+
+.down{
+       
+    padding: 10px;
+     margin: 110px 6px;
+     display: flex;
+ }
+ .card{
+    
+     padding: 23px 56px;
+     margin: 23px 50px;
+     /* border: 2px solid red; */
+     background-color: rgb(243, 245, 225);
+     
+     box-shadow: 10px 13px 4px rgb(5, 4, 4);
+   
+ }
+
+ h4{
+    color: black;
+ }
+ 
+
+
+
+
+
+
+
+
+

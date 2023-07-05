@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <!-- Rahul -->
+    
+    <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/intro.html" target="_blank">My Intro</a></li>
+          <!-- <li><a href="/service.html" target="_blank">Services</a></li> -->
+          <li><a href="/contact.html" target="_blank">Contact </a></li>
+          <li><a href="/experince.html" target="_blank">Experince</a></li>
+          
+        
+        </ul>
+    </nav>
+    </div>
+    <div class="main">
+     
+        <div class="menu-bar">
+            <img class="menu" src="menu1.png" alt="" width="23">
+            <img class="cross" src="cross1.png" alt="" width="20">
+
+        </div>
+        
+        
+        <div class="contactform">
+          <h1>  ------  Contact me for work / general Enquiries  ------</h1>
+        <form action="/myaction.php" name="myForm" onsubmit="return validateForm" method="post">
+          <div class="formdesign" id="name">
+          Name: <input type="text" name="fname"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="email">
+          Email: <input type="text" name="femail"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+          Phone: <input type="text" name="fphone"><b><span class="formerror"></span></b>
+        </div>
+
+
+        <div class="formdesign" id="pass">
+          Query:<input type="password" name="fpass"><b><span class="formerror"></span></b>
+        </div>
+
+        <!-- <div class="formdesign" id="cpass">
+          Confirm Password: <input type="password" name="fcpass"><b><span class="formerror"></span></b>
+        </div> -->
+
+        <input class="but" type="submit"  value="submit">
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
